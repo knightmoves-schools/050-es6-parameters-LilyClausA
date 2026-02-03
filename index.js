@@ -2,9 +2,9 @@ let calculateTotal = function (a, b = 2.50){
     return a + b;
 }
 let printTopThreeHeadlines = function (...value){
-    `first headline\nsecond headline\nthird headline`
+    
 }
-
+let result = trim(`first headline\nsecond headline\nthird headline`)
 
 document.getElementById("result").innerHTML = calculateTotal;
 
