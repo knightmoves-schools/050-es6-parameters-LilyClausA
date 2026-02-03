@@ -3,9 +3,9 @@ let calculateTotal = function (a, b = 2.50){
 }
 let printTopThreeHeadlines = function (...value){
 
-    return value[0];
     return value[1];
     return value[2];
+    return value[3];
 
 }
 
