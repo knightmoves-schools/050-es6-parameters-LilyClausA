@@ -3,9 +3,9 @@ let calculateTotal = function (a, b = 2.50){
 }
 let printTopThreeHeadlines = function (...value){
 
-   }
-
-result = printTopThreeHeadlines(`first headline, second headline, third headline`)
+    result = printTopThreeHeadlines(`first headline, second headline, third headline`)
+   
+}
 
 document.getElementById("result").innerHTML = calculateTotal;
 
