@@ -1,16 +1,11 @@
 let calculateTotal = function (a, b = 2.50){
     return a + b;
 }
-let printTopThreeHeadlines = function (...value){
+function printTopThreeHeadlines(...headlines) { 
+  return headlines.slice(0, 3).join("\n"); 
+} 
 
-    return headlines.slice(0, 3).join("\n");
-
-}
-
-//result = printTopThreeHeadlines(`first headline, second headline, third headline`)
-
-
-document.getElementById("result").innerHTML = printTopThreeHeadlines;
+document.getElementById("result").innerHTML = printTopThreeHeadlines("first headline", "second headline", "third headline");
 
 
 //    ✕ should create a function named printTopThreeHeadlines that takes a rest
